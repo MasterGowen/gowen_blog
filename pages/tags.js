@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
+import { RoughNotation } from 'react-rough-notation'
 
 export async function getStaticProps() {
   const tags = await getAllTags('blog')
@@ -19,11 +20,13 @@ export default function Tags({ tags }) {
       <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:justify-center md:items-center md:divide-y-0 md:flex-row md:space-x-6 md:mt-24">
         <div className="pt-6 pb-8 space-x-2 md:space-y-5">
           <h1 className="text-3xl font-display leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 md:border-r-2 md:px-6">
-            Tags
+            <RoughNotation type="underline" show={true}>
+              Теги
+            </RoughNotation>
           </h1>
         </div>
         <div className="flex flex-wrap max-w-lg">
-          {Object.keys(tags).length === 0 && 'No tags found.'}
+          {Object.keys(tags).length === 0 && 'Теги не найдены.'}
           {sortedTags.map((t) => {
             return (
               <div key={t} className="mt-2 mb-2 mr-5">

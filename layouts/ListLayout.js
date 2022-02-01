@@ -5,6 +5,7 @@ import { useState } from 'react'
 import Pagination from '@/components/Pagination'
 import formatDate from '@/lib/utils/formatDate'
 import { IconSearch } from '@tabler/icons'
+import { RoughNotation } from 'react-rough-notation'
 
 export default function ListLayout({ posts, title, initialDisplayPosts = [], pagination }) {
   const [searchValue, setSearchValue] = useState('')
@@ -20,9 +21,11 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
   return (
     <>
       <div className="divide-y">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-display leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-            {title}
+        <div className="pt-6 pb-6 space-y-2 md:space-y-5">
+          <h1 className="text-3xl pb-8 font-display leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+            <RoughNotation type="underline" show={true}>
+              {title}
+            </RoughNotation>
           </h1>
           <div className="relative max-w-lg">
             <input
