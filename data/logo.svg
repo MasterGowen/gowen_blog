@@ -1,0 +1,11 @@
+<svg id="logo" width="22.7mm" height="22.7mm" version="1.1" viewBox="-1 -1 28.7 28.7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="a" x1="161" x2="98" y1="203" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c28468" />
+      <stop stop-color="#6b6a69" stop-opacity="0" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-65.4 -104)">
+    <circle transform="matrix(.273 0 0 .273 47.8 75.9)" cx="110" cy="148" r="43" fill="#fa0091" stroke="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="8" style="mix-blend-mode:normal;paint-order:normal"/>
+  </g>
+</svg>

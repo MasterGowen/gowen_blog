@@ -1,0 +1,23 @@
+<svg width="25mm" height="25mm" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="a" cx="114" cy="158" r="44" gradientTransform="matrix(.047 -1.4 1.5 .049 -105 336)">
+      <stop stop-color="#f73c88" offset="0"/>
+      <stop stop-color="#fa8ab8" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <filter id="b" x="-.25" y="-.25" width="1.5" height="1.5" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" result="result8" stdDeviation="5"/>
+      <feComposite in2="result8" operator="xor" result="result19"/>
+      <feComposite in2="result8" k2="1" operator="arithmetic" result="result17"/>
+      <feOffset in="result8" result="result18"/>
+      <feDisplacementMap in="result18" in2="result17" result="result4" scale="100"/>
+      <feComposite in="SourceGraphic" in2="result4" k3="1" operator="arithmetic" result="result2"/>
+      <feComposite in="result2" in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feComposite in2="SourceGraphic" operator="in" result="result15"/>
+      <feComposite in="result15" in2="SourceGraphic" operator="in" result="result16"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(-65 -104)">
+    <circle transform="matrix(.27 0 0 .27 48 76)" cx="110" cy="148" r="43" fill="#fd65a6" filter="url(#b)" stroke="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="4.4" style="mix-blend-mode:multiply;paint-order:normal"/>
+  </g>
+ </svg>
