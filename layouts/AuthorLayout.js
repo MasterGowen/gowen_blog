@@ -4,7 +4,6 @@ import { PageSEO } from '@/components/SEO'
 import { useTheme } from 'next-themes'
 import resolveConfig from 'tailwindcss/resolveConfig'
 import tailwindConfig from '../tailwind.config'
-import { RoughNotation } from 'react-rough-notation'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter

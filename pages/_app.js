@@ -1,3 +1,4 @@
+import 'the-new-css-reset/css/reset.css'
 import '@/css/tailwind.css'
 import '@/css/prism.css'
 
