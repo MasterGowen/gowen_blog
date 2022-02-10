@@ -6,6 +6,16 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage: {
+        ibis: "url('/static/images/wood_ibis.png')",
+        'ibis-white': "url('/static/images/wood_ibis_white.png')",
+      },
+      backgroundPosition: {
+        'footer-bottom': 'bottom right 10vw',
+      },
+      backgroundSize: {
+        '8vw': '8vw',
+      },
       spacing: {
         '9/16': '56.25%',
       },

@@ -12,8 +12,8 @@ const siteMetadata = {
   image: '/static/images/avatar_01.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'mastergowen@gmail.com',
-  github: 'https://github.com',
-  youtube: 'https://youtube.com',
+  github: 'https://github.com/MasterGowen',
+  youtube: 'https://www.youtube.com/channel/UCpL0YdH5xU575WIkThuCxTQ',
   locale: 'ru',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics

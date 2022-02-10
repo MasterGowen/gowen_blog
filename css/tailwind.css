@@ -37,15 +37,3 @@ input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
-
-html.light > body.bg-ibis {
-  background: url('/static/images/wood_ibis.png') no-repeat;
-  background-position: bottom 1vw right 20vw;
-  background-size: 8vw;
-}
-
-html.dark > body.bg-ibis {
-  background: url('/static/images/wood_ibis_white.png') no-repeat, var(--);
-  background-position: bottom 1vw right 20vw;
-  background-size: 8vw;
-}
