@@ -5,7 +5,7 @@ import { IconBrandGithub, IconBrandYoutube, IconMail } from '@tabler/icons'
 const SocialIcons = ({ color, wrapperClass, size = 36 }) => {
   return (
     <div className={wrapperClass}>
-      <Link href={siteMetadata.email}>
+      <Link href={'mailto://' + siteMetadata.email}>
         <IconMail size={size} color={color} stroke={1} strokeLinejoin="miter" />
       </Link>
       <Link href={siteMetadata.github}>
