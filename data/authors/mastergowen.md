@@ -1,8 +1,8 @@
 ---
 name: Master Gowen
 avatar: /static/images/avatar.png
-occupation: junior employee of the department of Comprehension and Refraction of Existence
-company: Everywhere
+occupation: Осмысляю Сущее
+company: Везде
 email: mastergowen@gmail.com
 github: https://github.com/mastergowen
 ---

@@ -36,7 +36,7 @@ const NewsletterForm = ({ title = 'Подпишитесь на оповещен�
 
   return (
     <div>
-      <div className="pb-3 text-lg font-thin text-gray-800 dark:text-theme-50">{title}</div>
+      <div className="pb-3 text-lg font-light text-gray-800 dark:text-white">{title}</div>
       <form className="flex flex-col sm:flex-row" onSubmit={subscribe}>
         <div>
           <label className="sr-only" htmlFor="email-input">
