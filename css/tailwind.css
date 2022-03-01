@@ -6,6 +6,10 @@ html {
   font-size: 16px;
 }
 
+body {
+  background-attachment: fixed;
+}
+
 @layer base {
   h1 {
     @apply font-normal !important;
